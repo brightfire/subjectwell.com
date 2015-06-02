@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="small-12 columns">
+    <h3>Register In 30 Seconds</h3>
+  </div>
+</div>
+
+<%= form_for @company_signup do |f| %>
+<div class="row">
+  <div class="small-12 columns">
+    <%= f.label(:company_name) %>
+    <%= f.text_field(:company_name) %>
+  </div>
+</div>
+<div class="row">
+  <div class="small-6 columns">
+    <%= f.label(:sites_operated) %>
+    <%= f.text_field(:sites_operated) %>
+  </div>
+  <div class="small-6 columns">
+    <%= f.label(:studies_open) %>
+    <%= f.text_field(:studies_open) %>
+  </div>
+</div>
+<% end %>

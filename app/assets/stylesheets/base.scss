@@ -1,0 +1,31 @@
+body {
+  background-color: #ffffff;
+}
+
+#main_wrapper {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  background-color: white;
+}
+
+.footer {
+
+}
+
+.content {
+  min-height: 600px;
+//  background-color: white;
+}
+
+#main_nav {
+  right: 0;
+  &.fixed { box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+}
+.sub-nav{
+  margin: 0 auto !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
